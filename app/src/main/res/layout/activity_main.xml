@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:background="#396dbf"
+    >
+
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="252dp"
+        android:background="@drawable/rounded_button"
+        android:text="Play"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="298dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="133dp"
+        android:text="BINGO"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/howToBtn"
+        android:layout_width="153dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="86dp"
+        android:text="How To Play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play" />
+
+</android.support.constraint.ConstraintLayout>
